@@ -17,3 +17,7 @@ def get_daily_input(day):
 def get_daily_input_numbers(day):
     input = get_daily_input(day)
     return [int(i) for i in input]
+
+def get_daily_input_strings(day):
+    input = get_daily_input(day)
+    return [str(i).strip() for i in input]

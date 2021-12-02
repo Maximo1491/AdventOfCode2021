@@ -32,7 +32,3 @@ def part2():
             break
     
     return count
-        
-if __name__ == "__main__":
-    print("Answer to part 1: ", part1())
-    print("Answer to part 2: ", part2())
